@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+
+   box-sizing: border-box;
+}
+
+:root {
+   --violet: #6a5ae0;
+   --dark-violet: #4e42a9;
+   --violet-subtle: #9087e5;
+   --white: #fff;
+   --black-violet: #0c092a;
+   --white-violet: #e8e5fa;
+}
+
+body {
+   background-color: var(--violet) !important;
+}

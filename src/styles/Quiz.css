@@ -1,0 +1,11 @@
+form .btn {
+   background-color: var(--violet);
+   color: white;
+
+   font-size: 1.2em;
+}
+
+form .btn:is(:hover, :active, :focus) {
+   background-color: var(--violet-subtle);
+   color: white;
+}

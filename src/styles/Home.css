@@ -1,0 +1,24 @@
+#root {
+   min-height: 100vh;
+
+   display: flex;
+   align-items: center;
+}
+
+.main-container {
+   background-color: var(--white);
+}
+
+.accordion-header > button[aria-expanded="true"] {
+   background-color: var(--white);
+   color: black;
+}
+
+.footer > a {
+   background-color: var(--violet);
+   border: none;
+}
+
+.footer > a:is(:hover, :active) {
+   background-color: var(--violet-subtle) !important;
+}

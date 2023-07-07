@@ -1,0 +1,28 @@
+.quiz-button {
+   background-color: var(--white-violet);
+}
+
+.quiz-button .play-btn {
+   background-color: var(--violet);
+}
+
+.quiz-button .play-btn:is(:hover, :active) {
+   background-color: var(--violet-subtle) !important;
+}
+
+.quiz-button .rate-btn:hover {
+   cursor: default;
+}
+
+@media (max-width: 767px) {
+   .quiz-button .rate-btn {
+      display: none !important;
+      background-color: red !important;
+   }
+}
+
+@media (max-width: 460px) {
+   .quiz-button .left small {
+      display: none !important;
+   }
+}
